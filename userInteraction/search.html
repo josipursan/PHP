@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>search.html</title>
+</head>
+
+<body>
+    <h1>Search F1 data</h1>
+    <form action="search.php" method = "POST">
+        <fieldset>
+            <label>Search for</label>
+            <input type = "text" name = "srchVal"/>
+            <label>in</label>
+            <select name = "srchField">
+                <option value = "firstName">Name</option>
+                <option value = "lastName">Last name</option>
+                <option value = "team">Team</option>
+                <option value = "championships">Championships</option>
+            </select>
+            <button type = "submit">Submit request</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
